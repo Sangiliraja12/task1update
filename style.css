@@ -1,0 +1,16 @@
+body.one{
+    color:black;
+    background-image: url(download\ \(1\).jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.three{
+    background-color: black;
+    color: bisque;
+}
+.four{
+    background-color: black;
+    color: white;
+    display: inline;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body class="four">
+    <header>
+    <h1 style="text-align: center;">Contact Us</h1>
+    </header>
+    <main>
+    <form action="https://httpbin.org/get",method="post">
+        <fieldset style="width: 1000x;">
+            <legend><b>YOUR INFORMATION</b></legend>
+            <label for="name">Name:</label><br><br>
+            <input type="text"name="name"id="name"placeholder="Enter Your Name Please"required><br><br>
+            <label for="mobilenumber">Mobile Number:</label><br><br>
+            <input type="tel"name="mobilenumber"id="mobilenumber"placeholder="+91-90--347--3453"required pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br><br>
+            <lable for="email">Email:</lable><br><br>
+            <input type="email"name="email"id="email"placeholder="sa****@gmail.com"required><br><br>
+            <label for="state">State:</label><br><br>
+               <select name="state" id="state">
+                 <option value="select">Select Your State</option>
+              <optgroup label="South India">
+                  <option value="tamil">Tamil Nadu</option>
+                  <option value="kerala">Kerala</option>
+                  <option value="karnataka">Karnataka</option>
+                  <option value="andhra">Andhra Pradesh</option>
+                  <option value="telu">Telangana</option>
+            </optgroup>
+            <optgroup label="North India">
+                  <option value="himachal">Himachal Pradesh</option>
+                  <option value="punjab">Punjab</option>
+                  <option value="uttar">Uttarakhand</option>
+                  <option value="delhi">Delhi</option>
+            </optgroup>
+            <optgroup label="West India">
+                  <option value="guj">Gujarat</option>
+                  <option value="raj">Rajasthan</option>
+                  <option value="mah">Maharashtra</option>
+            </optgroup>
+            <optgroup label="East India">
+                 <option value="westbengal">West Bengal</option>
+                 <option value="assam">Assam</option>
+                 <option value="bihar">Bihar</option>
+                 <option value="sikkim">Sikkim</option>
+                 <option value="mizoram">Mizoram</option>
+            </optgroup>
+         </select><br><br>
+         <p>
+             <label for="message">Message:</label><br><br>
+             <textarea name="message"id="message"cols="30"rows="20"placeholder="Your Review......"></textarea></p>
+             <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+        </fieldset>
+        <p class="five"><img src="download.jpg" alt="not"></p>
+    </main>
+    <footer>
+        </form>
+       <a rel="html"href="index.html">Back to Menu</a>
+    </footer>
+  </body>
+</html>
