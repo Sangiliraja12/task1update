@@ -8,7 +8,8 @@ body.one{
 .three{
     background-color: black;
     color: bisque;
-    display: inline;
+    display: inline-block;
+    
 }
 .four{
     background-color: black;
