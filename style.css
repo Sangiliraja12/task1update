@@ -4,11 +4,6 @@ body.one{
     background-repeat:no-repeat ;
     background-size: cover;
     background-attachment: fixed;
-<<<<<<< HEAD
-   -webkit-background-clip: text;color: transparent;
-=======
-    background-size:100%;
->>>>>>> 86db0ffde05277a60bc88f0597321edff84c73d9
 }
 .three{
     background-color: black;
