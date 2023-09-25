@@ -4,18 +4,16 @@ body.one{
     background-repeat:no-repeat ;
     background-size: cover;
     background-attachment: fixed;
+   
+   color: transparent;
 }
 .three{
     background-color: black;
     color: bisque;
-    display: inline-block;
-    
 }
 .four{
     background-color: black;
     color: white;
     display: inline;
 }
-*{
-    width:100%;
-    height:auto;
+
