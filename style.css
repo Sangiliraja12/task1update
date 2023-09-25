@@ -16,4 +16,6 @@ body.one{
     color: white;
     display: inline;
 }
-
+*{
+    width:100%;
+    height:auto;
