@@ -1,10 +1,6 @@
-body.one{
-    color:black;
-    background-image: url(download\ \(1\).jpg);
-    background-repeat:no-repeat ;
-    background-size: cover;
-    background-attachment: fixed;
-   
+.one{
+    background-color: black;
+    color: aliceblue;
 }
 .three{
     background-color: black;
